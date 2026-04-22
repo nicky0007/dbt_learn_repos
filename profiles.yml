@@ -1,0 +1,13 @@
+dbt_learn_repos:
+  outputs:
+    dev:
+      account: DXIHFUX-AI01268
+      database: RAW
+      password: Whiteblack0000
+      role: ACCOUNTADMIN
+      schema: staging
+      threads: 1
+      type: snowflake
+      user: nikemen6
+      warehouse: COMPUTE_WH
+  target: dev
